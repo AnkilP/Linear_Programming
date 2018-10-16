@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/batman/CLionProjects/Simplex/Simplex.h
+string
+-
+iostream
+-
+
+/home/batman/CLionProjects/Simplex/main.cpp
+iostream
+-
+Simplex.h
+/home/batman/CLionProjects/Simplex/Simplex.h
+

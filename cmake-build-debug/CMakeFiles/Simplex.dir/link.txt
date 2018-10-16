@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Simplex.dir/main.cpp.o CMakeFiles/Simplex.dir/Dual_Primal.cpp.o CMakeFiles/Simplex.dir/Simplex.cpp.o  -o Simplex /usr/lib/x86_64-linux-gnu/libboost_program_options.so 
