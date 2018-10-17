@@ -10,7 +10,7 @@ Dual_Primal::Dual_Primal() {
     boost::numeric::ublas::matrix<double> A (x,y);
     for(int i = 0; i < x; ++i){
         for(int j = 0; j < y; ++j){
-            std::cin >> A[i,j];
+            std::cin >> A(i, j);
         }
     }
 }

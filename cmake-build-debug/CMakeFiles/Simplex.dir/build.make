@@ -43,10 +43,10 @@ RM = /home/batman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/batman/CLionProjects/Simplex
+CMAKE_SOURCE_DIR = /home/batman/CLionProjects/Linear_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/batman/CLionProjects/Simplex/cmake-build-debug
+CMAKE_BINARY_DIR = /home/batman/CLionProjects/Linear_Programming/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Simplex.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Simplex.dir/flags.make
 
 CMakeFiles/Simplex.dir/main.cpp.o: CMakeFiles/Simplex.dir/flags.make
 CMakeFiles/Simplex.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simplex.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/main.cpp.o -c /home/batman/CLionProjects/Simplex/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simplex.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/main.cpp.o -c /home/batman/CLionProjects/Linear_Programming/main.cpp
 
 CMakeFiles/Simplex.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simplex.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Simplex/main.cpp > CMakeFiles/Simplex.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Linear_Programming/main.cpp > CMakeFiles/Simplex.dir/main.cpp.i
 
 CMakeFiles/Simplex.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simplex.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Simplex/main.cpp -o CMakeFiles/Simplex.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Linear_Programming/main.cpp -o CMakeFiles/Simplex.dir/main.cpp.s
 
 CMakeFiles/Simplex.dir/Dual_Primal.cpp.o: CMakeFiles/Simplex.dir/flags.make
 CMakeFiles/Simplex.dir/Dual_Primal.cpp.o: ../Dual_Primal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simplex.dir/Dual_Primal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/Dual_Primal.cpp.o -c /home/batman/CLionProjects/Simplex/Dual_Primal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simplex.dir/Dual_Primal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/Dual_Primal.cpp.o -c /home/batman/CLionProjects/Linear_Programming/Dual_Primal.cpp
 
 CMakeFiles/Simplex.dir/Dual_Primal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simplex.dir/Dual_Primal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Simplex/Dual_Primal.cpp > CMakeFiles/Simplex.dir/Dual_Primal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Linear_Programming/Dual_Primal.cpp > CMakeFiles/Simplex.dir/Dual_Primal.cpp.i
 
 CMakeFiles/Simplex.dir/Dual_Primal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simplex.dir/Dual_Primal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Simplex/Dual_Primal.cpp -o CMakeFiles/Simplex.dir/Dual_Primal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Linear_Programming/Dual_Primal.cpp -o CMakeFiles/Simplex.dir/Dual_Primal.cpp.s
 
 CMakeFiles/Simplex.dir/Simplex.cpp.o: CMakeFiles/Simplex.dir/flags.make
 CMakeFiles/Simplex.dir/Simplex.cpp.o: ../Simplex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simplex.dir/Simplex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/Simplex.cpp.o -c /home/batman/CLionProjects/Simplex/Simplex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simplex.dir/Simplex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simplex.dir/Simplex.cpp.o -c /home/batman/CLionProjects/Linear_Programming/Simplex.cpp
 
 CMakeFiles/Simplex.dir/Simplex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simplex.dir/Simplex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Simplex/Simplex.cpp > CMakeFiles/Simplex.dir/Simplex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/batman/CLionProjects/Linear_Programming/Simplex.cpp > CMakeFiles/Simplex.dir/Simplex.cpp.i
 
 CMakeFiles/Simplex.dir/Simplex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simplex.dir/Simplex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Simplex/Simplex.cpp -o CMakeFiles/Simplex.dir/Simplex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/batman/CLionProjects/Linear_Programming/Simplex.cpp -o CMakeFiles/Simplex.dir/Simplex.cpp.s
 
 # Object files for target Simplex
 Simplex_OBJECTS = \
@@ -111,7 +111,7 @@ Simplex: CMakeFiles/Simplex.dir/Simplex.cpp.o
 Simplex: CMakeFiles/Simplex.dir/build.make
 Simplex: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 Simplex: CMakeFiles/Simplex.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Simplex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Simplex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Simplex.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/Simplex.dir/clean:
 .PHONY : CMakeFiles/Simplex.dir/clean
 
 CMakeFiles/Simplex.dir/depend:
-	cd /home/batman/CLionProjects/Simplex/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/batman/CLionProjects/Simplex /home/batman/CLionProjects/Simplex /home/batman/CLionProjects/Simplex/cmake-build-debug /home/batman/CLionProjects/Simplex/cmake-build-debug /home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles/Simplex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/batman/CLionProjects/Linear_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/batman/CLionProjects/Linear_Programming /home/batman/CLionProjects/Linear_Programming /home/batman/CLionProjects/Linear_Programming/cmake-build-debug /home/batman/CLionProjects/Linear_Programming/cmake-build-debug /home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles/Simplex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Simplex.dir/depend
 

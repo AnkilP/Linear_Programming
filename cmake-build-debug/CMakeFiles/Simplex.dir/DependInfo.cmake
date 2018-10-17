@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/batman/CLionProjects/Simplex/Dual_Primal.cpp" "/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles/Simplex.dir/Dual_Primal.cpp.o"
-  "/home/batman/CLionProjects/Simplex/Simplex.cpp" "/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles/Simplex.dir/Simplex.cpp.o"
-  "/home/batman/CLionProjects/Simplex/main.cpp" "/home/batman/CLionProjects/Simplex/cmake-build-debug/CMakeFiles/Simplex.dir/main.cpp.o"
+  "/home/batman/CLionProjects/Linear_Programming/Dual_Primal.cpp" "/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles/Simplex.dir/Dual_Primal.cpp.o"
+  "/home/batman/CLionProjects/Linear_Programming/Simplex.cpp" "/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles/Simplex.dir/Simplex.cpp.o"
+  "/home/batman/CLionProjects/Linear_Programming/main.cpp" "/home/batman/CLionProjects/Linear_Programming/cmake-build-debug/CMakeFiles/Simplex.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

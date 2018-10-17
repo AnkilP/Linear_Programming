@@ -15,19 +15,29 @@
 class Simplex
 {
 protected:
-    std::string maxmin;
+    int maxmin;
     int x;
     int y;
-    boost::numeric::ublas::vector<double>
+    boost::numeric::ublas::matrix<double> A;
+    boost::numeric::ublas::vector<double> c;
+    boost::numeric::ublas::vector<double> b;
+
+    boost::numeric::ublas::vector<int> nonnegativity;
 
 public:
     Simplex();
-
     void initial_sanitize_step();
     void iterate();
     void canonical_form();
     void big_m();
     void two_phase();
+
+    //helper functions
+    template<typename T>
+    void assign(boost::numeric::ublas::matrix<T> &m, std::size_t r, std::size_t c);
+
+    template<typename T>
+    void assign(boost::numeric::ublas::vector<T> &v, std::size_t r);
 };
 
 

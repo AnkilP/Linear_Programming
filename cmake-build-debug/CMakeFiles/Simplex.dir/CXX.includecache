@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/batman/CLionProjects/Simplex/Simplex.h
+/home/batman/CLionProjects/Linear_Programming/Simplex.cpp
+Simplex.h
+/home/batman/CLionProjects/Linear_Programming/Simplex.h
+
+/home/batman/CLionProjects/Linear_Programming/Simplex.h
 string
 -
 iostream
 -
-
-/home/batman/CLionProjects/Simplex/main.cpp
-iostream
+boost/numeric/ublas/matrix.hpp
 -
-Simplex.h
-/home/batman/CLionProjects/Simplex/Simplex.h
+boost/numeric/ublas/io.hpp
+-
+boost/numeric/ublas/vector.hpp
+-
 
