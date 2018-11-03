@@ -42,6 +42,8 @@ Simplex::Simplex() {
         std::cin >> nonnegativity(i);
     }
 
+    list_of_basic_vars.reserve(y);
+
 }
 
 void Simplex::initial_sanitize_step() {
@@ -57,10 +59,29 @@ void Simplex::initial_sanitize_step() {
         }
     }
 
+    //in the initial sanitization step, determine which basic vars need to be in the list of basic vars vector
 
 }
 
+void Simplex::canonical_form() {
+    return;
+}
+
 void Simplex::iterate() {
+    //determine ratios for which variable will be leaving and which will be entering
+    double smallest_ratio = 100; //TODO: change later so we don't rely on the ratio never being higher than 100
+    for (auto index_of_decision_var : list_of_basic_vars) {
+        if (c[index_of_decision_var] < 0) {
+            double previous_ratio;
+            for (int i = 0; i < x; ++i) {
+                previous_ratio = smallest_ratio;
+                if (A(i, index_of_decision_var) > 0) {
+                    smallest_ratio = std::min(smallest_ratio, b[i] / A(i, index_of_decision_var));
+                }
+
+            }
+        }
+    }
 
 }
 

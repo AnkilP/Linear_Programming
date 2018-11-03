@@ -4,6 +4,7 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
 
 #include <boost/numeric/ublas/matrix.hpp>
 #include <boost/numeric/ublas/io.hpp>
@@ -12,6 +13,8 @@
 #ifndef SIMPLEX_SIMPLEX_H
 #define SIMPLEX_SIMPLEX_H
 
+//TODO: account for degenerate and mulitple optimal solutions cases
+
 class Simplex
 {
 protected:
@@ -19,10 +22,12 @@ protected:
     int x;
     int y;
     boost::numeric::ublas::matrix<double> A;
-    boost::numeric::ublas::vector<double> c;
-    boost::numeric::ublas::vector<double> b;
+    boost::numeric::ublas::vector<double> c; // weights for objective function
+    boost::numeric::ublas::vector<double> b; //
 
     boost::numeric::ublas::vector<int> nonnegativity;
+
+    std::vector<int> list_of_basic_vars;
 
 public:
     Simplex();
